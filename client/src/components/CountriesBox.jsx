@@ -37,7 +37,7 @@ var CountriesBox = React.createClass({
          var filteredCountries = this.state.countries.filter(function(country){
             return country.region == this.state.currentRegion
         }.bind(this))
-         return filteredCountries
+         return filteredCountries;
     }
   },
 
